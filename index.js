@@ -29,7 +29,7 @@ for(i=0; i<monthlyExpenseQuestions.length; i++){
     monthlyExpenses = monthlyExpenses + answer
 }
 
-for(i=0; i<yearlyExpenseQuestions.length; i++){
-    let answer = parseFloat(window.prompt(yearlyExpenseQuestions[i]))
-    yearlyExpenses = yearlyExpenses + answer
+for(i=0; i<annualExpenseQuestions.length; i++){
+    let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
+    annualExpenses = annualExpenses + answer
 }
