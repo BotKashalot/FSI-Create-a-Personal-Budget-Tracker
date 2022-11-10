@@ -19,17 +19,20 @@ let annualExpenses = 0
 //let answer = parseFloat(window.prompt(weeklyExpenseQuestions[0]))
 //weeklyExpenses = weeklyExpenses + answer
 
-for(i=0; i<weeklyExpenseQuestions.length; i++){
+for(let i = 0; i < weeklyExpenseQuestions.length; i++){
     let answer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
     weeklyExpenses = weeklyExpenses + answer
 }
 
-for(i=0; i<monthlyExpenseQuestions.length; i++){
+for(let i = 0; i < monthlyExpenseQuestions.length; i++){
     let answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
     monthlyExpenses = monthlyExpenses + answer
 }
 
-for(i=0; i<annualExpenseQuestions.length; i++){
+for(let i = 0; i < annualExpenseQuestions.length; i++){
     let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
     annualExpenses = annualExpenses + answer
 }
+
+
+//parseFloat is to count numbers which are not integers, for example 1.5 and etc. but not to remove the tsrig portion of teh word
