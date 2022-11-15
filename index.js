@@ -39,25 +39,27 @@ let annualExpenses = 0
 
 
 
-//for(let i = weeklyExpenseQuestions.length; i > 0; i--){
-//    let answer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
-//    weeklyExpenses = weeklyExpenses + answer
-//}
-//
-//for(let i = weeklyExpenseQuestions.length; i > 0; i--){
-//    let answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
-//    monthlyExpenses = monthlyExpenses + answer
-//}
-//
-//for(let i = weeklyExpenseQuestions.length; i > 0; i--){
-//    let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
-//    annualExpenses = annualExpenses + answer
-//}
-
-let n = 0;
-
-while (n < weeklyExpenseQuestions.length){
-    let answer = parseFloat(window.prompt(weeklyExpenseQuestions[n]))
+for(let i = weeklyExpenseQuestions.length; i > 0; i--){
+    let answer = parseFloat(window.prompt(weeklyExpenseQuestions[i]))
     weeklyExpenses = weeklyExpenses + answer
-    n++
 }
+
+for(let i = weeklyExpenseQuestions.length; i > 0; i--){
+    let answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
+    monthlyExpenses = monthlyExpenses + answer
+}
+
+for(let i = weeklyExpenseQuestions.length; i > 0; i--){
+    let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
+    annualExpenses = annualExpenses + answer
+}
+
+//window.prompt(weeklyExpenseQuestions[0])
+
+//let n = 0;
+//
+//while (n < 1){
+//    let answer = parseFloat(window.prompt(weeklyExpenseQuestions[n]))
+//    weeklyExpenses = weeklyExpenses + answer
+//    n++
+//}
