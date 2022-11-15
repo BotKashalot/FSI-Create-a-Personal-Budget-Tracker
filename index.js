@@ -44,12 +44,12 @@ for(let i = weeklyExpenseQuestions.length; i > 0; i--){
     weeklyExpenses = weeklyExpenses + answer
 }
 
-for(let i = weeklyExpenseQuestions.length; i > 0; i--){
+for(let i = monthlyExpenseQuestions.length; i > 0; i--){
     let answer = parseFloat(window.prompt(monthlyExpenseQuestions[i]))
     monthlyExpenses = monthlyExpenses + answer
 }
 
-for(let i = weeklyExpenseQuestions.length; i > 0; i--){
+for(let i = annualExpenseQuestions.length; i > 0; i--){
     let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
     annualExpenses = annualExpenses + answer
 }
@@ -58,8 +58,24 @@ for(let i = weeklyExpenseQuestions.length; i > 0; i--){
 
 //let n = 0;
 //
-//while (n < 1){
+//while (n < weeklyExpensesQuestions.length){
 //    let answer = parseFloat(window.prompt(weeklyExpenseQuestions[n]))
 //    weeklyExpenses = weeklyExpenses + answer
+//    n++
+//}
+
+//let n = 0;
+//
+//while (n < monthlyExpensesQuestions.length){
+//    let answer = parseFloat(window.prompt(monthlyExpenseQuestions[n]))
+//    monthlyExpenses = monthlyExpenses + answer
+//    n++
+//}
+
+//let n = 0;
+//
+//while (n < annualExpensesQuestions.length){
+//    let answer = parseFloat(window.prompt(annualExpenseQuestions[n]))
+//    annualExpenses = annualExpenses + answer
 //    n++
 //}
